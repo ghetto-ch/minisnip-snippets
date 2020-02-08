@@ -1,0 +1,4 @@
+redir => {{+var+}}
+	{{--}}
+redir END
+

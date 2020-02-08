@@ -1,0 +1,7 @@
+let pos_save = getpos('.')
+try
+  {{++}}
+finally
+  call setpos('.', pos_save)
+endtry
+

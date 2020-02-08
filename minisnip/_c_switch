@@ -1,0 +1,6 @@
+switch ({{+var+}}) {
+	case {{+val+}}:
+		{{--}}
+		break;
+}
+

@@ -1,0 +1,4 @@
+elif [ {{+condition+}} ]; then
+	{{--}}
+
+

@@ -1,0 +1,8 @@
+let save_reg_{{+~\~1+}} = getreg('{{++}}')
+let save_regtype_{{+~\~1+}} = getregtype('{{+~\~1+}}')
+try
+  {{++}}
+finally
+  call setreg('{{+~\~1+}}', save_reg_{{+~\~1+}}, save_regtype_{{+~\~1+}})
+endtry
+

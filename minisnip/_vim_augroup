@@ -1,0 +1,5 @@
+augroup {{+augroup_name+}}
+  autocmd!
+  autocmd {{+event+}}
+augroup END
+

@@ -1,0 +1,4 @@
+function! {{+func_name+}}(arglead, cmdline, cursorpos) abort
+  return filter({{+list+}}, 'stridx(v:val, a:arglead) == 0')
+endfunction
+

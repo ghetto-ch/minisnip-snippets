@@ -1,0 +1,4 @@
+({{+TYPE+}} *)malloc({{+N_MEMBERS+}} * sizeof({{+~\~1+}}));
+{{++}}
+free({{+MEM+}});
+

@@ -1,0 +1,2 @@
+command! {{+command_name+}} call {{+func_name+}}
+

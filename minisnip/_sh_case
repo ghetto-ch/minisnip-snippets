@@ -1,0 +1,8 @@
+case "${{+{name\+}}}" in
+	{{+pattern*+}})
+		{{++}}
+		;;
+	*)
+		{{+echo "${{+~\~1+}} Didn't match anything"+}}
+esac
+
